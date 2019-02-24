@@ -33,3 +33,10 @@ body {
 .grad-trans-blue {
     background-image: linear-gradient(to top, rgba(0,64,193,1), rgba(255,0,0,0));
 }
+
+/* mobile styling */
+@media only screen and (max-width: 767px) {
+    .fit-line {
+        font-size: 7vw;
+    }
+}
