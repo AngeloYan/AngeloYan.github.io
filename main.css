@@ -39,8 +39,11 @@ body {
 }
 
 .card {
-    background-color: white;
-    color: black;
+    background-color: #533A7B;
+    /* background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(152,147,218,1)); */
+    /* background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(219,50,77,1)); */
+    /* background-color: rgb(219, 50, 77) */
+    /* color: black; */
 }
 
 /* mobile styling */
