@@ -1,11 +1,11 @@
 body {
     background-color: #533A7B;
-    color: white;
 }
 
 .section {
     background-color: transparent !important;
     height: 100vh;
+    color: white;
 }
 
 .center-horizontal {
@@ -36,6 +36,11 @@ body {
 
 .nav-gap {
     padding-top: 56px;
+}
+
+.card {
+    background-color: white;
+    color: black;
 }
 
 /* mobile styling */
