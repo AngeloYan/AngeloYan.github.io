@@ -3,7 +3,7 @@ body {
     color: white;
 }
 
-.jumbotron {
+.section {
     background-color: transparent !important;
     height: 100vh;
 }
