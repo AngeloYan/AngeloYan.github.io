@@ -18,8 +18,12 @@ body {
     align-items: center;
 }
 
-.text-cursive {
+.text-pacifico {
     font-family: 'Pacifico', cursive;
+}
+
+.text-lobster {
+    font-family: 'Lobster', cursive;
 }
 
 .grad-red-trans {
