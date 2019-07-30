@@ -8,6 +8,14 @@ body {
     color: white;
 }
 
+.project {
+    color: white;
+}
+
+.navbar-offset {
+    padding-top: 65px; 
+}
+
 .center-horizontal {
     display: flex;
     justify-content: center;

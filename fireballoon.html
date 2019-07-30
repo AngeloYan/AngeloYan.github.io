@@ -58,6 +58,54 @@
   </header>
 
   <main role="main">
+    <div class="row">
+      <!-- <div class="col-0 col-md-2 col-md-3"></div> -->
+      <div class="col-12 col-md-8 col-lg-6 offset-md-2 offset-lg-3 center-horizontal">
+          <div class="project navbar-offset">
+            <div class="container">
+              <h1 class="display-4 center-horizontal fit-line text-center">Fire Balloon Study Assistant</h1>
+              <div class="center-horizontal">
+                  <a href="https://fireballoonstudyassistant.herokuapp.com/" target="_blank">
+                    <button class="btn btn-dark">
+                      <i class="fas fa-desktop" style="color: white;"> Visit project</i>
+                    </button>
+                  </a>
+              </div>
+              <hr class="my-4">
+              <p>
+                The Fire Balloon Study Assistant is a conversational
+                agent (chat bot) that can be used to study for university
+                courses. Given a text resource, Fire Balloon splits the
+                text into chunks and stores these chunks in a database.
+                When the user asks a question, Fire Balloon analyses the
+                query for keywords and gives each chunk a score based on
+                its relevance. The most relevant chunks are returned to the
+                user. For this example, we have pre-loaded the lecture slides
+                from the "neural networks and deep learning", "Artificial
+                Intelligence", and "Software Engineering Fundamentals" courses.
+                <br><br>
+                Fire Balloon is also able to learn from user feedback
+                by allowing users to select the most relevant response. This
+                will increase its "relevance score" slightly when matched
+                with the same keywords.
+                <br><br>
+                Example usage:
+                <img src="/public/img/fireBalloonExample1.png" alt="Fire Balloon example" width="100%">
+                The "restart" command is used to reset the database and "untrain"
+                what the AI has learnt from user feedback. It also pings the
+                backend Heroku server which takes a couple of seconds to boot up.
+                <br><br>
+                The orange buttons can be clicked to open the PDF at the page
+                the information came from.
+                <img src="/public/img/fireBalloonExample.png" alt="Fire Balloon example" width="100%">
+                
+              </p>
+            </div>
+          </div>
+      </div>
+    </div>
+    
+
     
   </main>
 
