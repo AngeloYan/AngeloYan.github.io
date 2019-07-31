@@ -1,15 +1,12 @@
 body {
     background-color: #533A7B;
+    color: white;
 }
 
 .section {
     background-color: transparent !important;
     min-height: 100vh;
-    color: white;
-}
-
-.project {
-    color: white;
+    
 }
 
 .navbar-offset {
